@@ -1,0 +1,17 @@
+{
+    "name": "common/dependency",
+    "autoload": {
+        "psr-4": {
+            "Common\\Dependency\\": "src"
+        }
+    },
+    "prefer-stable": true,
+    "repositories": [
+        {"type": "composer", "url": "http://toran.ephah.cf/repo/private/"},
+        {"type": "composer", "url": "http://satis.ephah.cf/"},
+        {"packagist": false}
+    ],
+    "require": {
+        "pimple/pimple": "~3.0"
+    }
+}
